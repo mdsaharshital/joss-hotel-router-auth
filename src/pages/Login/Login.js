@@ -57,7 +57,7 @@ const Login = () => {
             />
           </div>
           {loading && <p className="text-green-500">Loading....</p>}
-          {error && <p style={{ color: "red" }}>{error}</p>}
+          {error && <p style={{ color: "red" }}>{error.message}</p>}
           <p>
             <small>
               New to joss hotel?{" "}
